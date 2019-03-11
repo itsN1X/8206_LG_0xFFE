@@ -3,7 +3,7 @@ from matplotlib import style
 
 from numpy import genfromtxt
 
-data = genfromtxt('example2.csv',delimiter=' ')
+data = genfromtxt('ffd.tsv',delimiter=' ')
 
 plt.plot(data)
 
